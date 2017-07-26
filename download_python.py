@@ -11,9 +11,9 @@ else:
 
 version = raw_input('请输入你想安装的python版本3.6.2/2.7.13:\n')
 if version == '3.6.2':
-    url = 'http://software1.file.alimmdn.com/python/Python-3.6.2.tgz'
+    url = 'http://www.file.alimmdn.com/python/Python-3.6.2.tgz'
 elif version == '2.7.13':
-    url = 'http://software1.file.alimmdn.com/python/Python-2.7.13.tgz'
+    url = 'http://www.file.alimmdn.com/python/Python-2.7.13.tgz'
 else:
     print '您输入的版本号有误，请输入3.6.2或者2.7.13'
     sys.exit(1)
